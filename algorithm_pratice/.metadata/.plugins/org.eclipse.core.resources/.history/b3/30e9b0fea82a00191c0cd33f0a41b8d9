@@ -1,0 +1,37 @@
+package warmup;
+
+import java.util.Scanner;
+
+
+public class Main {
+	Scanner scan = new Scanner(System.in);
+	//x,y는 -10000이상 10000이하의 정수 
+	//r1,r2는 10000이하의 자연수
+	int T=scan.nextInt();
+	int x1=scan.nextInt();
+	int x2=scan.nextInt();
+	int y1=scan.nextInt();
+	int y2=scan.nextInt();
+	int r1=scan.nextInt();
+	int r2=scan.nextInt();
+	int d= r1 + r2
+	
+	for(int i;i<T;i++){
+	System.out.println(x1+""+y2+""+r1+""+x2+""+y2+""+r2);
+	
+	// 한 점에서 만나는 경우
+	if(r1+r2==d){
+		return 1;
+	}
+	// 만나지 않는 경우
+	else if(r1+r2){
+		
+	}
+	// 무한대인 경우
+	else if(){
+		
+	} 
+	// 두 점에서 만나는 경우
+	else
+		
+}

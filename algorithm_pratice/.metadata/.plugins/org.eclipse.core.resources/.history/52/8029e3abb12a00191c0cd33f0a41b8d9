@@ -1,0 +1,50 @@
+package warmup;
+
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String args[]){
+
+	Scanner scan = new Scanner(System.in);
+	//x,y는 -10000이상 10000이하의 정수 
+	//r1,r2는 10000이하의 자연수
+	int T=scan.nextInt();
+	
+	for(int i=0; i<T; i++){
+		int x1=scan.nextInt();
+		int x2=scan.nextInt();
+		int y1=scan.nextInt();
+		int y2=scan.nextInt();
+		int r1=scan.nextInt();
+		int r2=scan.nextInt();
+		double d= Math.sqrt( (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2) );
+		
+		int sd = r1-r2;
+		
+		if(sd<0){
+			sd= -sd;
+			
+		}
+		
+	
+		// -1인 경우(무한대)
+		if(x1==x2 && y1==y2 && r1==r2){
+			System.out.println("-1");
+		}
+		// 1인 경우
+		else if( d == r1+r2 ){
+				System.out.println("1");
+		}
+		// 0인 경우
+		else if( d == sd ){
+			System.out.println("0");
+		}
+		// 2인 경우
+		else if( sd< r1+r2 < r1+r2 ){
+			System.out.println("-1");
+		} 
+	
+		}
+}
+}
