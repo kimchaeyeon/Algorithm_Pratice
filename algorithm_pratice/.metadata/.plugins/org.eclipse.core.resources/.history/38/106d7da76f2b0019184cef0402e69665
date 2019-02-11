@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Main {
+	public static int fibonacci(int N){
+		int z=0;
+		int o=0;
+		if (N == 0) {
+			System.out.println("0출력");
+			z ++;
+	        return 0;
+	    } else if (N == 1) {
+	    	System.out.println("1출력");
+	        return 1;
+	    } else {
+	        return fibonacci(N-1) + fibonacci(N-2);
+	    }	
+	}
+	public static void main(String args[]){
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("T값입력");
+		int T= scan.nextInt(); // 테스트 케이스의 개수
+		
+		
+		for(int i=0; i<T; i++){
+			int N =scan.nextInt();
+			fibonacci(N);
+			System.out.println( fibonacci(N) );
+			T--;
+	
+		}	
+    }
+
+}
