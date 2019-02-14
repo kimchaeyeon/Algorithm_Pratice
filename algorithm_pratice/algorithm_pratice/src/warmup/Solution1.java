@@ -48,7 +48,7 @@ public class Solution1 {
 
 				for(int i=0; i<n; i+=2){
 
-					int j=0;
+					int j=0;//j
 
 					aScore[j]= andrea[i]-maria[i];
 

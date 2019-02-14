@@ -22,7 +22,7 @@ public class Main {
 		while(T !=0){
 			int N =scan.nextInt();
 			fibonacci(N);
-			System.out.println( z +" "+o);
+			System.out.println( z +", "+o);
 			z=0;
 			o=0;
 			T--;
