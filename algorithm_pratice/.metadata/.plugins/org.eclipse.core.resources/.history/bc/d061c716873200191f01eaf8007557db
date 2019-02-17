@@ -1,0 +1,21 @@
+package warmup;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args){
+		//String a[] = new String[3];
+		String a;
+		Scanner kb = new Scanner(System.in);
+//		for(int i=0;i<3;i++){
+//			a[i] = kb.nextLine().trim();
+//		}
+//		for(int i=0;i<3;i++){
+//			System.out.println(a[i]);
+//		}
+		while(true){
+			a = kb.next();
+			System.out.println(a);
+		}
+	}
+}
