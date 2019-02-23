@@ -1,0 +1,22 @@
+package warmup;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner kb = new Scanner(System.in);
+			int n = kb.nextInt();
+			kb.close();
+			for(int i=1; i<=n; i++){
+				for(int j=0; j<i; j++){
+					int x = n-i;
+					for(int z=0; z<x; z++){
+						System.out.print("");
+					}
+					System.out.print("*");
+				}
+				System.out.println("");
+			}
+	}
+
+}
