@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CompareTheTriplets.java&apos; to &apos;algorithm_pratice/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;algorithm_pratice&apos;&#x0D;&#x0A;- Destination element: &apos;algorithm_pratice/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;warmup.CompareTheTriplets.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;" element1="/src&lt;warmup{CompareTheTriplets.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1551008898156" units="1" version="1.0"/>
+</session>
